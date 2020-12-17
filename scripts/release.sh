@@ -6,10 +6,6 @@ git checkout master
 git add -A
 standard-version --commit-all --release-as $version
 
-# gh-pages
-git checkout gh-pages
-git merge master
-git checkout master
 
 # push
 git push --tags origin
