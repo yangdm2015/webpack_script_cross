@@ -1,0 +1,18 @@
+{
+  "name": "@byted/by-cross",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies":{
+    "html-webpack-plugin": "^4.5.0",
+    "react-scripts": "^4.0.1",
+    "webpack":"^4.44"
+    
+  },
+  "keywords": [],
+  "author": "yangshan.andy@bytedance.com",
+  "license": "ISC"
+}
