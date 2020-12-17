@@ -9,8 +9,6 @@ class crossOriginPlugin {
   }
   apply(compiler) {
     compiler.hooks.compilation.tap("MyPlugin", compilation => {
-      console.log("The compiler is starting a new compilation...")
-
       // Static Plugin interface |compilation |HOOK NAME | register listener
       HtmlWebpackPlugin.getHooks(compilation).alterAssetTags.tapAsync(
         "CrossoriginWebpackPlugin",
@@ -20,7 +18,7 @@ class crossOriginPlugin {
   }
 
   _addAttributeToScripts(htmlPluginData, callback) {
-    console.log("中中中中中中中中中 htmlPluginData=", htmlPluginData)
+    console.log("成功加上跨域头")
     htmlPluginData.assetTags.scripts
       .filter(tag => tag.tagName === "script")
       .forEach(script => (script.attributes.crossorigin = this.options.crossorigin))
