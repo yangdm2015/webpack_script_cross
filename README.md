@@ -38,12 +38,11 @@ const webpackConfig = {
 > Default config: `{ crossorigin: 'anonymous' }`
 
 ```js
-new byCross({ crossorigin: 'anonymous' })
+new ByCross({ crossorigin: 'anonymous' })
 ```
 
 ---
 
-😉😘 If it is helpful to you，please encourage me with a <b>⭐️<a href="#">Star</a></b> ~
 
 ## [Changelog](./CHANGELOG.md)
 
