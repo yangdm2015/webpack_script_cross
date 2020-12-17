@@ -30,8 +30,14 @@ const webpackConfig = {
     new ByCross(),
   ],
   /* ... */
+  output:{
+    /* ... */
+      crossOriginLoading:"anonymous" // Spa should have this to add (crossorigin) to script tag dynamically
+    /* ... */
+  }
 }
 ```
+> Attention:  if this not working in react project, please ensure the version of react-scripts  >= "^4.0.1"
 
 ### Config
 

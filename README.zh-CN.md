@@ -30,8 +30,14 @@ const webpackConfig = {
     new ByCross(),
   ],
   /* ... */
+  output:{
+    /* ... */
+      crossOriginLoading:"anonymous" // Spa 应用需要加这个，来保证异步加载的script标签有crossorigin 属性
+    /* ... */
+  }
 }
 ```
+> 注意：如果react项目不生效，请保证 react-scripts >= "^4.0.1"
 
 ### 配置
 
