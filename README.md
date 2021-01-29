@@ -32,7 +32,8 @@ const webpackConfig = {
   /* ... */
   output:{
     /* ... */
-      crossOriginLoading:"anonymous" // Spa should have this to add (crossorigin) to script tag dynamically
+      crossOriginLoading:"anonymous" // Spa should have this to add (crossorigin) to script tag dynamically.
+      // crossOriginLoading:"anonymous"  only works when script.src is  different from site's origin
     /* ... */
   }
 }
