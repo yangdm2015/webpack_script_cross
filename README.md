@@ -26,7 +26,7 @@ const ByCross = require('@byted/by-cross')
 const webpackConfig = {
   /* ... */
   plugins: [
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin(), // inject must be true (by default)
     new ByCross(),
   ],
   /* ... */
