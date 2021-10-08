@@ -5,8 +5,8 @@
 ## ✨ 特性
 
 - 零配置/极简使用
-- 支持 webpack 版本 v4
-- 支持 html-webpack-plugin 版本 v4
+- 支持 webpack 版本 v4/5
+- 支持 html-webpack-plugin 版本 v4/5
 
 ## 🚀 快速开始
 
@@ -41,10 +41,13 @@ const webpackConfig = {
 
 ### 配置
 
-> 默认配置为：`{ crossorigin: 'anonymous' }`
+> 默认配置为：`{ crossorigin: 'anonymous' , debug:false}`
 
 ```js
-new ByCross({ crossorigin: 'anonymous' })
+new ByCross({ 
+  crossorigin: 'anonymous', // 可选
+  debug:true  // 可选
+})
 ```
 
 ---

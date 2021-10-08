@@ -1,12 +1,12 @@
 # @byted/by-cross
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](README.zh-CN.md)
 
 ## ✨ Features
 
 - Zero-config, easy to use
-- Support webpack v4
-- Support html-webpack-plugin v4
+- Support webpack v4/5
+- Support html-webpack-plugin v4/5
 
 ## 🚀 QuickStart
 
@@ -42,10 +42,13 @@ const webpackConfig = {
 
 ### Config
 
-> Default config: `{ crossorigin: 'anonymous' }`
+> Default config: `{ crossorigin: 'anonymous',debug:false }`
 
 ```js
-new ByCross({ crossorigin: 'anonymous' })
+new ByCross({ 
+  crossorigin: 'anonymous', // optional
+  debug:false  // optional
+})
 ```
 
 ---
