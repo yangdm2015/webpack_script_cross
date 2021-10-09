@@ -7,6 +7,9 @@ English | [简体中文](README.zh-CN.md)
 - Zero-config, easy to use
 - Support webpack v4/5
 - Support html-webpack-plugin v4/5
+- 零配置/极简使用
+- 支持 webpack 版本 v4/5
+- 支持 html-webpack-plugin 版本 v4/5
 
 ## 🚀 QuickStart
 
