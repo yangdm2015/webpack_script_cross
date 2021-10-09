@@ -19,7 +19,6 @@ class crossOriginPlugin {
       )
     })
   }
-
   _addAttributeToScripts(htmlPluginData, callback) {
     htmlPluginData.assetTags.scripts
       .filter(tag => tag.tagName === "script")
