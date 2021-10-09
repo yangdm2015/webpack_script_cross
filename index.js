@@ -1,7 +1,6 @@
 /**
  * byCross
  */
-
 class crossOriginPlugin {
   constructor(options) {
     this.options = options || { crossorigin: "anonymous" }
