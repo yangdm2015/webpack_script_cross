@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.12](https://github.com/yangdm2015/webpack_cross/compare/v1.0.9...v1.0.12) (2021-10-09)
+
 ### [1.0.9](https://code.byted.org///compare/v1.0.8...v1.0.9) (2021-01-29)
 
 ### [1.0.8](https://code.byted.org///compare/v1.0.7...v1.0.8) (2020-12-17)

@@ -1,6 +1,6 @@
 version=$(node -p "const { version } = require('./package.json'); version")
 
-git checkout master
+git checkout main
 
 # commit
 git add -A
