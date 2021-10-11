@@ -1,4 +1,4 @@
-# @byted/by-cross
+# webpack-cross
 
 English | [简体中文](README.zh-CN.md)
 
@@ -16,7 +16,7 @@ English | [简体中文](README.zh-CN.md)
 ### Install
 
 ```bash
- npm i  @byted/by-cross -D
+ npm i  webpack_cross -D
 ```
 
 ### Usage
@@ -24,7 +24,7 @@ English | [简体中文](README.zh-CN.md)
 > Please put it after `HtmlWebpackPlugin`
 
 ```js
-const ByCross = require('@byted/by-cross')
+const ByCross = require('webpack_cross')
 
 const webpackConfig = {
   /* ... */
