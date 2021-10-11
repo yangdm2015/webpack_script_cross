@@ -1,4 +1,4 @@
-#  webpack_cross
+#  webpackScriptCross
 
 [English](./README.md) | 简体中文
 
@@ -13,7 +13,7 @@
 ### 安装
 
 ```bash
- npm i  webpack_cross -D
+ npm i  webpackScriptCross -D
 ```
 
 ### 使用
@@ -21,7 +21,7 @@
 > 需定义在 `HtmlWebpackPlugin` 插件之后
 
 ```js
-const ByCross = require('webpack-cross')
+const ByCross = require('webpack_script_cross')
 
 const webpackConfig = {
   /* ... */

@@ -1,4 +1,4 @@
-# webpack-cross
+# webpack_script_cross
 
 English | [简体中文](README.zh-CN.md)
 
@@ -16,7 +16,7 @@ English | [简体中文](README.zh-CN.md)
 ### Install
 
 ```bash
- npm i  webpack_cross -D
+ npm i  webpackScriptCross -D
 ```
 
 ### Usage
@@ -24,7 +24,7 @@ English | [简体中文](README.zh-CN.md)
 > Please put it after `HtmlWebpackPlugin`
 
 ```js
-const ByCross = require('webpack_cross')
+const ByCross = require('webpackScriptCross')
 
 const webpackConfig = {
   /* ... */
