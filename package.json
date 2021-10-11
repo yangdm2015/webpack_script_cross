@@ -1,6 +1,6 @@
 {
   "name": "webpack_cross",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "author": "yangshan.andy@bytedance.com",
   "description": "📦 Add the crossorigin attribute to HTML scripts(CORS), support webpack v4 | 为 HTML 脚本添加 crossorigin 属性（跨域支持），支持 webpack v4",
   "main": "index.js",
