@@ -16,7 +16,7 @@ English | [简体中文](README.zh-CN.md)
 ### Install
 
 ```bash
- npm i  webpackScriptCross -D
+ npm i  webpack_script_cross -D
 ```
 
 ### Usage
@@ -24,13 +24,13 @@ English | [简体中文](README.zh-CN.md)
 > Please put it after `HtmlWebpackPlugin`
 
 ```js
-const ByCross = require('webpackScriptCross')
+const WebpackScriptCross = require('webpack_script_cross')
 
 const webpackConfig = {
   /* ... */
   plugins: [
     new HtmlWebpackPlugin(), // inject must be true (by default)
-    new ByCross(),
+    new WebpackScriptCross(),
   ],
   /* ... */
   output:{
@@ -48,7 +48,7 @@ const webpackConfig = {
 > Default config: `{ crossorigin: 'anonymous',debug:false }`
 
 ```js
-new ByCross({ 
+new WebpackScriptCross({ 
   crossorigin: 'anonymous', // optional
   debug:false  // optional
 })

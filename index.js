@@ -1,5 +1,5 @@
 /**
- * byCross
+ * WebpackScriptCross
  */
 class crossOriginPlugin {
   constructor(options) {
